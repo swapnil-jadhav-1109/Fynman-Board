@@ -1,4 +1,4 @@
-const Topic = require("../../Models/Topic");
+const Topic = require("../Models/Topic");
 
 // Get all topics for the current user
 exports.getAllTopics = async (req, res) => {
